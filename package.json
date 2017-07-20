@@ -1,0 +1,19 @@
+{
+  "name": "hone",
+  "version": "1.0.0",
+  "description": "hometopdf",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-less": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-util": "^3.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanz16",
+  "license": "ISC"
+}
