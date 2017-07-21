@@ -3,8 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<title>PDF</title>
+	<script src="js/jquery-2.1.1.min.js"></script>
 </head>
 <body>
 	<header>
@@ -30,14 +33,14 @@
 			<div class="header_menu__logo"><img src="img/GED-Logo.svg" alt=""></div>
 			<div class="header_menu__nav">
 				<ul>
-					<li><a herf="#">Продажа</a></li>
-					<li><a herf="#">Аренда</a></li>
+					<li><a herf="#" class="header_menu__nav___dotted">Продажа</a></li>
+					<li><a herf="#" class="header_menu__nav___dotted">Аренда</a></li>
 					<li><a herf="#" class="header_menu__nav___super">Спецпредложения</a></li>
 					<li><a herf="#" class="header_menu__nav___newBuild">Новостройки</a></li>
 					<li><a herf="#">Посёлки</a></li>
 					<li><a herf="#">Риэлторы</a></li>
 					<li><a herf="#">Журнал</a></li>
-					<li><a herf="#"><img src="" alt=""></a></li>
+					<li><a herf="#"><img src="img/Absolut-Logo.svg" id="Absolut-Logo"></a></li>
 				</ul>
 			</div>
 			<div class="header_menu__banner">
@@ -46,7 +49,8 @@
 		</div>
 	</header>
 	<div class="content">
-<!-- ОЧЕНЬ ВАЖНО ОЧЕНЬ ВАЖНО НАЗВАНИЕ-->	
+<!-- ОЧЕНЬ ВАЖНО ОЧЕНЬ ВАЖНО НАЗВАНИЕ-->
+	<div class="content_border">
 		<div class="content_silka">
 			<div class="content_silka__item">
 				<a href="#">Новостройки</a>
@@ -60,104 +64,85 @@
 		</div>
 		<div class="content_mainBlock">
 			<div class="content_mainBlock__title">
-				ВТБ24 предлагает покупателям «Пресня Сити», 
-				«Басманный,5» и «Царская площадь» премиальное 
-				банковское обслуживание
+				ВТБ24 предлагает покупателям «Пресня Сити», <br>
+				«Басманный,5» и «Царская площадь» премиальное <br>
+				банковское обслуживание 
 			</div>
-			<div class="content_mainBlock__timer"></div>
+			<div class="content_mainBlock__timer">
+				<span class="content_mainBlock__timer___day">5</span>дней <br>
+				<div class="content_mainBlock__timer___clock"><span class="content_mainBlock__timer___clock___h">08</span>:<span class="content_mainBlock__timer___clock___m">34</span >:<span class="content_mainBlock__timer___clock___s">10</span></div>
+			</div>
 			<div class="content_mainBlock__date">До 31 января</div>
 			<div class="content_mainBlock__img"><img src="img/moscow-863528_1280.jpg"></div>
 			<div class="content_mainBlock__p">
 				Размещение позиционирует институциональный стратегический маркетинг.
 				Такое понимание ситуации восходит к Эл Райс, при этом нестандартный
 				подход категорически экономит комплексный медиабизнес. Ценовая
-				стратегия индуцирует бренд. 
+				стратегия индуцирует бренд. <br>
+			<span class="content_mainBlock__p___phone">Узнайте детали акции 
+			<span class="content_mainBlock__p___phone____nomber">+7 495 150-ХХ-ХХ</span></span>
 			</div>
 		</div>
 		<div class="content_more">
 			<h3>Ещё акции</h3>
 		</div>
 		<div class="content_block">
+			<div class="content_block__date">До 15 января</div>
 			<div class="content_block__title">Ноговогодняя скидка 1 000 000 рублей в ЖК SREDA</div>
-			<div class="content_block__timer"></div>
-			<div class="content_block__date"></div>
+			<div class="content_block__timer">Осталось<br><span class="content_block__timer___d">0</span><span class="content_block__timer___dd">8</span>дней</div>
+			<div class="content_block__p">
+				Стратегия сегментации, в рамках сегодняшних воззрений,
+				категорически тормозит процесс стратегического планирования. 
+			</div>			
 			<div class="content_block__img"><img src="img/6a5287_5da00f60f9694308b17d2d4581354356~mv2.jpg_srz_467_234_85_22_0.50_1.20_0.00_jpg_srz.jpg"></div>
-			<div class="content_block__p">
-				Стратегия сегментации, в рамках сегодняшних воззрений,
-				категорически тормозит процесс стратегического планирования. 
-			</div>
+
 		</div>
 		<div class="content_block">
+			<div class="content_block__date">До 15 января</div>
 			<div class="content_block__title">Ноговогодняя скидка 1 000 000 рублей в ЖК SREDA</div>
-			<div class="content_block__timer"></div>
-			<div class="content_block__date"></div>
-			<div class="content_block__img"><img src="img/king_for_a_day-n05wvz8ng98tyfjox934wts5tvc0lanhgdktfrgld8.jpg"></div>
+			<div class="content_block__timer">Осталось<br><span class="content_block__timer___d">0</span><span class="content_block__timer___dd">8</span>дней</div>
 			<div class="content_block__p">
 				Стратегия сегментации, в рамках сегодняшних воззрений,
 				категорически тормозит процесс стратегического планирования. 
-			</div>
+			</div>			
+			<div class="content_block__img"><img src="img/king_for_a_day-n05wvz8ng98tyfjox934wts5tvc0lanhgdktfrgld8.jpg"></div>
+
 		</div>
 		<div class="content_block">
+			<div class="content_block__date">До 15 января</div>
 			<div class="content_block__title">
 				ВТБ24 предлагает покупателям «Пресня Сити»,
 				«Басманный,5» и «Царская площадь» премиальное
 				банковское обслуживание
 			</div>
-			<div class="content_block__timer"></div>
-			<div class="content_block__date"></div>
-			<div class="content_block__img"><img src="img/20pers_for_all-n05vlkxg3nqavcxwup33c1a2860rn5ggqqazn296i4.jpg"></div>
+			<div class="content_block__timer">Осталось<br><span class="content_block__timer___d">0</span><span class="content_block__timer___dd">8</span>дней</div>
 			<div class="content_block__p">
 				Банк ВТБ24 и девелоперы MR Group и Coalco приготовили для
 				покупателей квартир и апартаментов в комплексах «Пресня Сити»,
 				«Басманный,5» и «Царская площадь» новогодний подарок -
 				сертификат на премиальное обслуживание в рамках пакета услуг
 				«Привилегия». 
-			</div>
+			</div>			
+			<div class="content_block__img"><img src="img/20pers_for_all-n05vlkxg3nqavcxwup33c1a2860rn5ggqqazn296i4.jpg"></div>
+
 		</div>
+	</div>	
 		<div class="content_other">
 			<div class="content_other__title">
 				Другие акции
 			</div>
 			<div class="content_other__block">
-				<div class="content_other__block___img"></div>
-				<div class="content_other__block___title">
-					Ноговогодняя скидка
-					1 000 000 рублей в ЖК SREDA
-				</div>
-				<div class="content_other__block___date"></div>
+				<a href="#">
+					<div class="content_other__block___img"><img src="img/ccd2ef1a3b82fc1851b6e5f8fdd05cb5-cb300x198.jpeg"></div>
+					<div class="content_other__block___title">
+						Ноговогодняя скидка
+						1 000 000 рублей в ЖК SREDA
+					</div>
+					<div class="content_other__block___date">До 31 января</div>
+				</a>
 			</div>
 			<div class="content_other__block">
-				<div class="content_other__block___img"></div>
-				<div class="content_other__block___title">
-					Покупка квартиры в Бэсткон –
-					реальный шанс выиграть
-					автомобиль!
-				</div>
-				<div class="content_other__block___date"></div>
-			</div>
-			<div class="content_other__block">
-				<div class="content_other__block___img"></div>
-				<div class="content_other__block___title">
-					ВТБ24 предлагает
-					покупателям «Пресня Сити»,
-					«Басманный,5» и «Царская
-					площадь» премиальное
-					банковское обслуживание
-				</div>
-				<div class="content_other__block___date"></div>
-			</div>
-			<div class="content_other__title">
-				Другие акции
-			</div>
-			<div class="content_other__block">
-				<div class="content_other__block___img"><img src="img/ccd2ef1a3b82fc1851b6e5f8fdd05cb5-cb300x198.jpeg"></div>
-				<div class="content_other__block___title">
-					Ноговогодняя скидка
-					1 000 000 рублей в ЖК SREDA
-				</div>
-				<div class="content_other__block___date">До 31 января</div>
-			</div>
-			<div class="content_other__block">
+			<a href="#">
 				<div class="content_other__block___img"><img src="img/moscow-863528_1280.jpg"></div>
 				<div class="content_other__block___title">
 					Покупка квартиры в Бэсткон –
@@ -165,8 +150,9 @@
 					автомобиль!
 				</div>
 				<div class="content_other__block___date">До 31 января</div>
+			</a>
 			</div>
-			<div class="content_other__block">
+			<div class="content_other__block"><a href="#">
 				<div class="content_other__block___img"><img src="img/6a5287_5da00f60f9694308b17d2d4581354356~mv2.jpg_srz_467_234_85_22_0.50_1.20_0.00_jpg_srz.jpg"></div>
 				<div class="content_other__block___title">
 					ВТБ24 предлагает
@@ -176,16 +162,18 @@
 					банковское обслуживание
 				</div>
 				<div class="content_other__block___date">До 31 января</div>
+			</a>
 			</div>
-			<div class="content_other__block">
+			<div class="content_other__block"><a href="#">
 				<div class="content_other__block___img"><img src="img/ccd2ef1a3b82fc1851b6e5f8fdd05cb5-cb300x198.jpeg"></div>
 				<div class="content_other__block___title">
 					Ноговогодняя скидка
 					1 000 000 рублей в ЖК SREDA
 				</div>
 				<div class="content_other__block___date">До 31 января</div>
+			</a>
 			</div>
-			<div class="content_other__block">
+			<div class="content_other__block"><a href="#">
 				<div class="content_other__block___img"><img src="img/moscow-863528_1280.jpg"></div>
 				<div class="content_other__block___title">
 					Покупка квартиры в Бэсткон –
@@ -193,8 +181,9 @@
 					автомобиль!
 				</div>
 				<div class="content_other__block___date">До 31 января</div>
+			</a>
 			</div>
-			<div class="content_other__block">
+			<div class="content_other__block"><a href="#">
 				<div class="content_other__block___img"><img src="img/6a5287_5da00f60f9694308b17d2d4581354356~mv2.jpg_srz_467_234_85_22_0.50_1.20_0.00_jpg_srz.jpg"></div>
 				<div class="content_other__block___title">
 					ВТБ24 предлагает
@@ -204,6 +193,7 @@
 					банковское обслуживание
 				</div>
 				<div class="content_other__block___date">До 31 января</div>
+			</a>
 			</div>
 		</div>
 	</div>
@@ -251,5 +241,6 @@
 			<div class="sidebar_block__title">7 км от МКАД!</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>

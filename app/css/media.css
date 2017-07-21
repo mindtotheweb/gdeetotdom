@@ -1,0 +1,8 @@
+@media screen and (min-width: 1477px) {
+  .content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+  }
+}
